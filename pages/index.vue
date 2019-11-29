@@ -32,6 +32,7 @@ h1 {
   margin: 40px 0px 0px 40px;
 }
 input {
+  width: 52px;
   outline: none;
   appearance: none;
   border: none;
