@@ -1,14 +1,17 @@
 <template>
-  <div class="container">
-    <div class="image">
-      <img src="../assets/trol.jpg" />
-    </div>
-    <div>
-      <p class="name">lucas is</p>
-      <Input />
-    </div>
-    <div>
-      <p class="hours-old">hours old</p>
+  <div>
+    <h1>Reusable Component Input Test</h1>
+    <div class="container">
+      <div class="image">
+        <img src="../assets/ss.jpg" />
+      </div>
+      <div>
+        <p class="name">lucas is</p>
+        <Input />
+      </div>
+      <div>
+        <p class="hours-old">hours old</p>
+      </div>
     </div>
   </div>
 </template>
@@ -24,6 +27,10 @@ export default {
 </script>
 
 <style>
+h1 {
+  text-transform: uppercase;
+  margin: 40px 0px 0px 40px;
+}
 input {
   outline: none;
   appearance: none;
@@ -38,6 +45,12 @@ input:focus {
   font-weight: bold;
   border-bottom: 1px solid blue;
 }
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 40px;
+}
+
 .name {
   text-transform: uppercase;
   font-size: 10px;
@@ -45,15 +58,7 @@ input:focus {
 }
 .hours-old {
   font-size: 8px;
-  margin: 10px 0 0 10px;
-}
-img {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 40px;
-}
-h1 {
-  text-transform: uppercase;
+  margin: 20px 0 0 10px;
 }
 .container:focus-within .image {
   border: 3px solid blue;
@@ -63,10 +68,9 @@ h1 {
   color: blue;
 }
 .container {
-  margin: 0 auto;
+  margin: 40px auto;
   min-height: 100vh;
   display: flex;
-  align-items: center;
   text-align: center;
 }
 .image {
