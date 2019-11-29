@@ -25,9 +25,3 @@ export default {
   }
 };
 </script>
-
-<style>
-span {
-  min-width: 50px;
-}
-</style>
