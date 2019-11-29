@@ -50,7 +50,6 @@ img {
   max-height: 100%;
   border-radius: 40px;
 }
-
 .name {
   text-transform: uppercase;
   font-size: 10px;
